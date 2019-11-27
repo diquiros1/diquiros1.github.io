@@ -1,5 +1,5 @@
 :root {
-  --background: rgba(0, 214, 170, .85);
+  --background: #B4B7B4;
 }
 
 *{
@@ -12,7 +12,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	font-family: Didot, serif	;
+	font-family: Didot, serif;
 }
     
 a:hover, a:visited, a{
@@ -157,8 +157,8 @@ nav a:hover {
     /* end Edge support stuff */
     
     grid-column: 3 / 4;
-    display: flex;
-    justify-content: flex-end;
+    display: inline-flex;
+    justify-content: flex-en;
     align-items: center;
   }
   
@@ -167,7 +167,7 @@ nav a:hover {
   }
   
   nav li {
-    margin-left: 4em;
+    margin-left: 3em;
     margin-bottom: 0;
   
   }
@@ -237,14 +237,11 @@ nav a:hover {
 }
 
 .item{
-	 display: block;
-    width: 225px;
-    border: 8px solid #00d6aa;
-    border-bottom: 130px solid #00d6aa;
+  display: block;
+  width: 225px;
+  border-bottom: 90px solid #00d6aa;
   margin-left: auto;
-  margin-bottom: 0px;
-  width: auto;
-    
+  width: auto;  
 }
 .carousel-caption {
 	position: absolute;
@@ -259,7 +256,7 @@ nav a:hover {
   border-radius: 50%;
   color: black;
   margin-left: 0;
-  margin-top: 90px;
+  margin-top: 0px;
 }
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
   font-size: 18px;
@@ -268,7 +265,7 @@ nav a:hover {
   border-radius: 50%;
   color: black;
   margin-right: 0;
-  margin-top: 90px;
+  margin-top: 0px;
 }
 
 
@@ -333,7 +330,7 @@ div.transbox p {
 .about-details p{
 	font-size: 17px;
 	color: #fff;
-	font-family: Palatino, URW Palladio L, serif;
+	font-family: Didot, serif;
 	padding: 10px 20px;
     font-size: 19px;
 	padding-bottom: 10px;
@@ -383,7 +380,7 @@ footer {
   font: 2.3vw Didot, serif;
 }
 .footer-list-anchor {
-  font: 1.3em Palatino, URW Palladio L, serif
+  font: 1.3em Didot, serif;
 }
 
 .footer-social-overlap > a:not(:first-child) {
@@ -406,7 +403,7 @@ footer {
   display: inline;
   font-style: normal
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 380px) {
   .footer-list-header {
     font-size:2em 
   }
@@ -717,9 +714,7 @@ responsive area
 	.contact-caption{
 		margin-top: 38%;
 	}
-	#map{
-		height: 950px;
-	}
+	
 	.contact{
 		height: 950px;
 		margin-top: -950px;
