@@ -1,16 +1,16 @@
 <?php
-if(!empty($_POST["send"])) {
-	$name = $_POST["userName"];
-	$email = $_POST["userEmail"];
-	$subject = $_POST["subject"];
-	$content = $_POST["content"];
-
-	$toEmail = "admin@phppot_samples.com";
-	$mailHeaders = "From: " . $name . "<". $email .">\r\n";
-	if(mail($toEmail, $subject, $content, $mailHeaders)) {
-	    $message = "Your contact information is received successfully.";
-	    $type = "success";
-	}
-}
-require_once "contact-view.php";
-?>
+   
+if (isset($_POST['submit'])) {
+    $name = $_POST['name'];
+    $subject = $_POST['subject'];
+    $mailFrom = $_POST['mail'];
+    $message = $_POST['message'];
+     
+    $mailTO = "2314diego@gmail.com";
+    $headers = "From: ".$mailFrom;
+    $txt = "You have received an e-mail from ".$name.".\n\n".$message;
+    
+    mail($mailTO, $subject, $txt, $headers);
+    header("Location: contact.php?mailsend");
+    }
+    

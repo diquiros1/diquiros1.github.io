@@ -1,0 +1,17 @@
+body {
+  padding-top: 19%;
+font-family: Didot, serif;
+}
+
+.show-cart li {
+  display: flex;
+}
+.card {
+  margin-bottom: 20%;
+    margin-top: 20%;
+}
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  align-self: center;
+}
