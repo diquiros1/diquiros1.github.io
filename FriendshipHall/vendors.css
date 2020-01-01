@@ -5,6 +5,7 @@
 */
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+
 figure.snip1104 {
   font-family: 'Raleway', Arial, sans-serif;
   position: relative;
@@ -127,10 +128,17 @@ figure.snip1104.hover:before {
   transform: rotate(110deg) translateY(-150%);
 }
 
+#footer {
+    background:#333;
+    padding: 10px;
+    width: 100%;
+}
+
 
 /* Demo purposes only */
 html {
   height: 100%;
+ font-size: 13px;
 }
 body {
   background-color: #212121;
@@ -141,4 +149,5 @@ body {
   margin: 0;
   height: 100%;
     padding-top: 23%;
+
 }

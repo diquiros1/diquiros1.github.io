@@ -81,13 +81,6 @@ body {
     color:#fff;
 }
 
-/* Team */
-
-#team {
-    padding: 50px 10px;
-    background: #B4B7B4;
-}
-
 
 /* Video Background */
 
@@ -164,13 +157,9 @@ body {
 
 /* Locations */
 
-
-
 .loc img {
     margin-right:10px;
-    transition-duration: 1.5s;
-    
-    
+    transition-duration: 1.5s;  
 }
 
 .loc img:hover {
@@ -204,7 +193,6 @@ body {
     padding:90px 0px;
     background: #111;
 }
-
 
 /* Pop Up Box */
 
@@ -290,18 +278,43 @@ div.transbox p {
 
 #footer {
     background:#333;
+    width: auto;
+    padding-top: 40px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.footer {
+  color: white;
+  
+}
+.footer .links ul {
+  list-style-type: none;
+}
+.footer .links li a {
+  color: white;
+  transition: color .2s;
+}
+.footer .links li a:hover {
+  text-decoration: none;
+  color: #4180CB;
+}
+.footer .about-company i {
+  font-size: 40px;
     padding: 10px;
 }
-
-.cpt {
-    padding-top: 29px;
+.footer .about-company a {
+  color: white;
+  transition: color .2s;
 }
-
-.ftaw i {
-    font-size: 50px;
-    color: bl;
-    padding-top: 15px;
-    padding-right: 10px;
+.footer .about-company a:hover {
+  color: #4180CB;
+}
+.footer .location i {
+  font-size: 18px;
+}
+.footer .copyright p {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* Back To top */
@@ -363,14 +376,11 @@ div.transbox p {
     }   
 }
 
-
 @media only screen and (max-width:3600px) {
     .autovideo {
         text-align:center;
     }   
 }
-
-
 
 @media only screen and (max-width:360px) {
     .carousel-caption {
@@ -405,8 +415,6 @@ div.transbox p {
     }   
 }
 
-
-
 @media only screen and (max-width:360px) {
     .carousel-caption h3 {
         font-size: 24px;
@@ -424,4 +432,3 @@ div.transbox p {
         margin-top: 80px;
     }
 }*/
-
