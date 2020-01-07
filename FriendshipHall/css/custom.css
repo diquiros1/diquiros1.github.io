@@ -15,6 +15,10 @@ body {
         }
 /* Navbar */
 
+.collapse navbar-collapse{  
+    width: 100%;
+}
+
 .bg-dark {
     background-color: #B4B7B4 !important;
 }
@@ -22,6 +26,10 @@ body {
 .navbar-dark .navbar-nav .nav-link {
     color: black;
     font-size: 25px;
+}
+
+.navbar-brand {
+    width: 100%
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -34,6 +42,16 @@ body {
 
 /* Carousel */
 
+
+.carousel-inner{    
+}
+
+.carousel-item active{   
+}
+
+.carousel-item{   
+}
+
 .carousel-caption {
     padding-bottom: 0%;
     padding-top: 8%;
@@ -42,12 +60,17 @@ body {
 .carousel-caption h3 {
     font-size: 42px;
     font-weight: bold;
-    padding-top: 0%;
+    padding-top: 20%;
 }
 
 .carousel-caption p {
     font-size: 24px;
     color: #21ddfb;
+}
+
+.carousel-caption d-md-block{   
+   font-size: 24px;
+    color: #21ddfb;   
 }
 
 /* Buttons */
@@ -85,18 +108,21 @@ body {
 /* Video Background */
 
 .wclb {
-    padding-top: 300px;
+    padding-top: 0px;
 }
 
 
 /* Menu */
 
 #menu {
-    padding: 50px 10px;
+    padding: 1px 1px;
+    width: 100%;
 }
 
 .card {
     box-shadow: 2px 5px 20px #777;
+    width:100%;
+    height: 100%;
 }
 
 .modal-content {
@@ -190,7 +216,7 @@ body {
 /* Video Section */
 
 #vid {
-    padding:90px 0px;
+    padding:90px; 0px;
     background: #111;
 }
 
@@ -363,9 +389,21 @@ div.transbox p {
     }   
 }
 
+@media only screen and (max-width:360px) {
+    .wclb {
+        text-align:center;
+    }   
+}
 
 @media only screen and (max-width:360px) {
-    . {
+    .collapse navbar-collapse{
+    }   
+}
+
+.navbar-brand
+
+@media only screen and (max-width:360px) {
+    .carousel-item active {
         text-align:center;
     }   
 }
@@ -389,6 +427,12 @@ div.transbox p {
 }
 
 @media only screen and (max-width:360px) {
+    .carousel-caption {
+        padding-bottom: 8%;
+    }
+}
+
+@media only screen and (max-width:360px) {
     .carousel-caption h3 {
         font-size: 32px;
     }
@@ -403,7 +447,7 @@ div.transbox p {
     }   
 }
 
-@media only screen and (max-width:360px) {
+@media only screen and (min-width:360px) {
     .container {
         display:center;
     }   
@@ -431,4 +475,4 @@ div.transbox p {
     #about {
         margin-top: 80px;
     }
-}*/
+}
