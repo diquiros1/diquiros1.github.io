@@ -109,7 +109,7 @@ body {
 
 .wclb {
     padding-top: px;
-    padding-bottom: px;
+    padding-bottom: xpx;
 }
 
 
@@ -401,7 +401,13 @@ div.transbox p {
     }   
 }
 
-.navbar-brand
+@media only screen and (max-width:360px) {
+  .overlay {
+  }
+    
+  header video {
+    display: none;
+  }
 
 @media only screen and (max-width:360px) {
     .carousel-item active {
