@@ -2,7 +2,10 @@
 
 body {
     position: relative;
-    padding-top: 14%;
+    line-height: 10px;
+    margin-top: 200px;
+    width: 100%;
+    
     font-family: Didot, serif;
         }
 
@@ -29,7 +32,10 @@ body {
 }
 
 .navbar-brand {
-    width: 100%
+    position: static;
+}
+
+.navbar navbar-expand-md navbar-dark bg-dark fixed-top {   
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -38,6 +44,17 @@ body {
 
 .active {
     border-bottom: 2px solid #fff;
+}
+
+.navbar-brand{
+ position:    
+}
+
+.nav-link {  
+}
+
+.col-md-12 col-lg-4 {
+    
 }
 
 /* Carousel */
@@ -108,21 +125,30 @@ body {
 /* Video Background */
 
 .wclb {
-    padding-top: px;
-    padding-bottom: xpx;
+    width:100%;
+    padding-bottom: ;
 }
-
+.left carousel-control{
+    
+}
 
 /* Menu */
 
 #menu {
     padding: 1px 1px;
     width: 100%;
+    height: 100%;
 }
 
 .card {
     box-shadow: 2px 5px 20px #777;
     width:100%;
+    height: 100%;
+}
+
+.card-img-top mb-3{
+    object-fit: cover;
+    width: 100%;
     height: 100%;
 }
 
@@ -139,7 +165,7 @@ body {
 #plx {
     background: url(../img/ringcover.jpg);
     background-attachment: fixed;
-    background-position: ;
+    background-position: 0px 193px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -390,18 +416,18 @@ div.transbox p {
     }   
 }
 
-@media only screen and (max-width:360px) {
+@media only screen and (max-width:360px max-height:630px) {
     .wclb {
         text-align:center;
     }   
 }
 
-@media only screen and (max-width:360px) {
+@media only screen and (max-width:360px max-height:630px) {
     .collapse navbar-collapse{
     }   
 }
 
-@media only screen and (max-width:360px) {
+@media only screen and (max-width:360px max-height:630px) {
   .overlay {
   }
     
@@ -409,37 +435,44 @@ div.transbox p {
     display: none;
   }
 
-@media only screen and (max-width:360px) {
+@media only screen and (max-width:360px max-height:568px) {
     .carousel-item active {
         text-align:center;
     }   
 }
+    
+@media only screen and (max-width:360px max-height:568px) {
+    .carousel-item {
+        text-align:center;
+    }   
+}
+    
 
-@media only screen and (max-width:360px) {
+@media only screen and (max-width:360px max-height:568px) {
     .bg-dark {
         text-align:center;
     }   
 }
 
-@media only screen and (max-width:3600px) {
+@media only screen and (max-width:360px max-height:568px) {
     .autovideo {
         text-align:center;
     }   
 }
 
-@media only screen and (max-width:360px) {
-    .carousel-caption {
+@media only screen and (max-width:360px max-height:568px) {
+    .carousel-item {
         padding-bottom: 8%;
     }
 }
 
-@media only screen and (max-width:360px) {
-    .carousel-caption {
+@media only screen and (max-width:360px max-height:568px) {
+    .carousel-inner {
         padding-bottom: 8%;
     }
 }
 
-@media only screen and (max-width:360px) {
+@media only screen and (max-width:360px max-height:568px) {
     .carousel-caption h3 {
         font-size: 32px;
     }
@@ -448,25 +481,40 @@ div.transbox p {
     }    
 }
 
-@media only screen and (max-width:360px) {
+@media only screen and (max-width:360px max-height:568px) {
     .carousel-caption p {
         display:none;
     }   
 }
 
-@media only screen and (min-width:360px) {
+@media only screen and (max-width:360px max-height:568px){
     .container {
         display:center;
     }   
 }
 
-@media only screen and (max-width:360px) {
+ @media only screen and (max-width:360px max-height:568px) {
+.navbar navbar-expand-md navbar-dark bg-dark fixed-top {        
+    } 
+}
+    
+@media only screen and (max-width:px max-height:1366px) {
+.nav-link {        
+    } 
+}
+  
+@media only screen and (max-width:360px max-height:568px) {    
+    .navbar-brand{
+    }
+    }
+    
+@media only screen and (max-width:360px max-height:568px) {
     .row {
         display:center;
     }   
 }
 
-@media only screen and (max-width:360px) {
+@media only screen and (max-width:360px max-height:568px) {
     .carousel-caption h3 {
         font-size: 24px;
     }
@@ -475,7 +523,7 @@ div.transbox p {
     }
 }
 
-@media only screen and (max-width:360px) {
+@media only screen and (max-width:360px max-height:568px) {
     #carouselFull {
         display:none;
     }
