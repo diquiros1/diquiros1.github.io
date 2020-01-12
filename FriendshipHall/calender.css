@@ -1,5 +1,5 @@
 body {
-    padding-top: 17%;
+    padding-top: 7%;
 }
 
 .calendar-day {
@@ -7,7 +7,6 @@ body {
 
 }
 .calendar-table {
-  margin: 10% auto;
   width: 100%;
 }
 .selected {
@@ -80,8 +79,100 @@ body {
 
 
 /* Media Queries */
-@media only screen and (max-width:360px) {
+@media only screen and (max-width:360px max-height:568px) {
     .calendar-table {
         text-align:center;
     }   
 }
+
+@media only screen and (max-width:360px max-height:568px) {
+.calendar-day{        
+    } 
+}
+
+@media only screen and (max-width:360px max-height:568px) {
+.calendar-table{        
+    } 
+}
+ 
+@media only screen and (max-width:360px max-height:568px) {
+.selected{        
+    } 
+}
+
+@media only screen and (max-width:360px max-height:568px) {
+.outside .date{        
+    } 
+}
+
+
+@media only screen and (max-width:360px max-height:568px) {
+.timetitle{        
+    } 
+}
+
+@media only screen and (max-width:360px max-height:568px) {
+.event{        
+    } 
+}
+
+@media only screen and (max-width:360px max-height:568px) {
+.event.begin{        
+    } 
+}
+
+@media only screen and (max-width:360px max-height:568px) {
+event.end{        
+    } 
+}
+
+@media only screen and (max-width:360px max-height:568px) {
+.event.all-day{        
+    } 
+}
+
+@media only screen and (max-width:360px max-height:568px) {
+.event.all-day.begin{        
+    } 
+}
+
+@media only screen and (max-width:360px max-height:568px) {
+.event.all-day.end{        
+    } 
+}
+
+@media only screen and (max-width:360px max-height:568px) {
+.event.clear{        
+    } 
+}
+
+@media only screen and (max-width:360px max-height:568px) {
+.table-tight > thead > tr > th,{        
+    } 
+}
+
+@media only screen and (max-width:360px max-height:568px) {
+.table-tight > tbody > tr > th,{        
+    } 
+}
+
+@media only screen and (max-width:360px max-height:568px) {
+.table-tight > tfoot > tr > th,{        
+    } 
+}
+
+@media only screen and (max-width:360px max-height:568px) {
+.table-tight > thead > tr > td,{        
+    } 
+}
+
+@media only screen and (max-width:360px max-height:568px) {
+.table-tight > tbody > tr > td,{        
+    } 
+}
+
+@media only screen and (max-width:360px max-height:568px) {
+.table-tight > tfoot > tr > td{        
+    } 
+}
+

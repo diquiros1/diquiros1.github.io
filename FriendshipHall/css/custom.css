@@ -2,7 +2,7 @@
 
 body {
     position: relative;
-    line-height: 10px;
+    line-height: 16px;
     margin-top: 200px;
     width: 100%;
     
@@ -126,7 +126,8 @@ body {
 
 .wclb {
     width:100%;
-    padding-bottom: ;
+    padding-top:29px;
+    padding-bottom: 2.5%;
 }
 .left carousel-control{
     
@@ -410,7 +411,7 @@ div.transbox p {
 
 /* Media Queries */
 
-@media only screen and (max-width:360px max-height:630px) {
+@media only screen and (max-width:360px) {
     .blogo {
         text-align:center;
     }   
@@ -498,7 +499,7 @@ div.transbox p {
     } 
 }
     
-@media only screen and (max-width:360px max-height:1366px) {
+@media only screen and (max-width:px max-height:1366px) {
 .nav-link {        
     } 
 }
