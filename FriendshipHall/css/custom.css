@@ -5,7 +5,6 @@ body {
     line-height: 16px;
     margin-top: 200px;
     width: 100%;
-    
     font-family: Didot, serif;
         }
 
@@ -53,6 +52,11 @@ body {
 .nav-link {  
 }
 
+.image {
+ 
+    
+}
+
 .col-md-12 col-lg-4 {
     
 }
@@ -60,67 +64,25 @@ body {
 /* Carousel */
 
 
-.carousel-inner{    
-}
+.d-block{
+width:100%; 
 
-.carousel-item active{   
-}
-
-.carousel-item{   
+    text-indent: -1840px;
+-webkit-filter: grayscale(100%);filter: grayscale(100%);
 }
 
 .carousel-caption {
-    padding-bottom: 0%;
-    padding-top: 8%;
+    padding-bottom: 18%;
+    padding-top: 0%;
+    font color: black;
 }
 
 .carousel-caption h3 {
     font-size: 42px;
     font-weight: bold;
-    padding-top: 20%;
+    padding-top: 2%;
+    font color: black;
 }
-
-.carousel-caption p {
-    font-size: 24px;
-    color: #21ddfb;
-}
-
-.carousel-caption d-md-block{   
-   font-size: 24px;
-    color: #21ddfb;   
-}
-
-/* Buttons */
-
-.btn-info {
-    background-color:black;
-    padding: 1rem 4rem;
-    border:3px solid transparent;
-    width: 225px;
-}
-
-.btn-info:hover {
-    background-color:transparent;
-    border:3px solid #21ddfb;
-    color: black;
-}
-
-.btn-info:active {
-    background-color:transparent !important;
-    border:3px solid #B4B7B4 !important;
-    color: #21ddfb !important;
-}
-
-/* Specials */
-
-.specials {
-    background: #B4B7B4;
-    padding: 50px 20px;
-}
-.specials h2 {
-    color:#fff;
-}
-
 
 /* Video Background */
 
@@ -129,28 +91,71 @@ body {
     padding-top:29px;
     padding-bottom: 2.5%;
 }
-.left carousel-control{
-    
+
+/*arrow*/
+
+.btt {
+    display:none;
+    background: black;
+    width: 65px;
+    position: fixed;
+    right: -12px;
+    bottom: 19px;
+    z-index: 9998;
+    border: 2px solid #fff;
+    border-radius: 10px;    
 }
+
+.btt:hover {
+    background: #21ddfb;
+    box-shadow: 5px 10px 25px #555;
+}
+
+.btt i {
+    color: #B4B7B4;
+    font-size: 45px;
+    padding: 7px;
+}
+
+.btt i:hover {
+    color:#fff;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.show {
+  opacity: 3;
+  display:block;  
+}
+
 
 /* Menu */
 
 #menu {
-    padding: 1px 1px;
+    padding: 0px 0px;
     width: 100%;
     height: 100%;
+    padding-bottom: 10px;
 }
 
 .card {
     box-shadow: 2px 5px 20px #777;
     width:100%;
     height: 100%;
+    
 }
 
 .card-img-top mb-3{
     object-fit: cover;
     width: 100%;
     height: 100%;
+}
+
+.card-text {
+    font-size: 17px;
+    font-size-adjust: 10px;
 }
 
 .modal-content {
@@ -201,7 +206,7 @@ body {
 
 .ovl {
     opacity: 0;
-    transition: 1s;
+    transition: ;
 }
 
 .ovl:hover {
@@ -211,17 +216,7 @@ body {
 
 /* Locations */
 
-.loc img {
-    margin-right:10px;
-    transition-duration: 1.5s;  
-}
 
-.loc img:hover {
-    transform:scale(3,3);
-    box-shadow: 5px 5px 15px #333;
-    z-index: 1;
-    position: absolute;
-}
 
 /* Testimonials */
 
@@ -303,26 +298,16 @@ body {
 
 /* Contact */
 
-#contact {
-    padding:100px 0;
-    box-shadow:5px 10px 25px #555;
-    position:relative;
-    z-index:22;
-}
-.cbtn {
-    margin-top: 57px;
-}
-
 div.transbox {
   margin: 0px;
   background-color: #ffffff;
   border: .1px solid black;
-  opacity: 0.6;
+  opacity: 0.4;
   filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
 div.transbox p {
-  margin: 15%;
+  margin: 14%;
  font-size: 30px;
   color: #000000;
 }
@@ -373,39 +358,12 @@ div.transbox p {
 
 /* Back To top */
 
-.btt {
-    display:none;
-    background: black;
-    width: 65px;
-    position: fixed;
-    right: -12px;
-    bottom: 19px;
-    z-index: 9998;
-    border: 2px solid #fff;
-    border-radius: 10px;    
-}
-
-.btt:hover {
-    background: #21ddfb;
-    box-shadow: 5px 10px 25px #555;
-}
-
-.btt i {
-    color: #B4B7B4;
-    font-size: 45px;
-    padding: 7px;
-}
-
-.btt i:hover {
-    color:#fff;
-}
-
 .hide {
   opacity: 0;
 }
 
 .show {
-  opacity: 1;
+  opacity: 3;
   display:block;  
 }
 
@@ -499,8 +457,13 @@ div.transbox p {
     } 
 }
     
-@media only screen and (max-width:px max-height:1366px) {
+@media only screen and (max-width:px max-height:568px) {
 .nav-link {        
+    } 
+}
+    
+@media only screen and (max-width:px max-height:568px) {
+.image{        
     } 
 }
   

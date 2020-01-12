@@ -1,5 +1,7 @@
 body {
     padding-top: 7%;
+    
+    font-family: Didot, serif;
 }
 
 .calendar-day {
@@ -79,99 +81,104 @@ body {
 
 
 /* Media Queries */
-@media only screen and (max-width:360px max-height:568px) {
+@media only screen and (max-width:360px) {
     .calendar-table {
         text-align:center;
     }   
 }
 
-@media only screen and (max-width:360px max-height:568px) {
+@media only screen and (max-width:360px ) {
 .calendar-day{        
     } 
 }
 
-@media only screen and (max-width:360px max-height:568px) {
+@media only screen and (max-width:360px ) {
+body{        
+    } 
+}
+
+@media only screen and (max-width:360px ) {
 .calendar-table{        
     } 
 }
  
-@media only screen and (max-width:360px max-height:568px) {
+@media only screen and (max-width:360px ) {
 .selected{        
     } 
 }
 
-@media only screen and (max-width:360px max-height:568px) {
+@media only screen and (max-width:360px ) {
 .outside .date{        
     } 
 }
 
 
-@media only screen and (max-width:360px max-height:568px) {
+@media only screen and (max-width:360px ) {
 .timetitle{        
     } 
 }
 
-@media only screen and (max-width:360px max-height:568px) {
+@media only screen and (max-width:360px ) {
 .event{        
     } 
 }
 
-@media only screen and (max-width:360px max-height:568px) {
+@media only screen and (max-width:360px ) {
 .event.begin{        
     } 
 }
 
-@media only screen and (max-width:360px max-height:568px) {
+@media only screen and (max-width:360px ) {
 event.end{        
     } 
 }
 
-@media only screen and (max-width:360px max-height:568px) {
+@media only screen and (max-width:360px ) {
 .event.all-day{        
     } 
 }
 
-@media only screen and (max-width:360px max-height:568px) {
+@media only screen and (max-width:360px ) {
 .event.all-day.begin{        
     } 
 }
 
-@media only screen and (max-width:360px max-height:568px) {
+@media only screen and (max-width:360px ) {
 .event.all-day.end{        
     } 
 }
 
-@media only screen and (max-width:360px max-height:568px) {
+@media only screen and (max-width:360px ) {
 .event.clear{        
     } 
 }
 
-@media only screen and (max-width:360px max-height:568px) {
+@media only screen and (max-width:360px ) {
 .table-tight > thead > tr > th,{        
     } 
 }
 
-@media only screen and (max-width:360px max-height:568px) {
+@media only screen and (max-width:360px ) {
 .table-tight > tbody > tr > th,{        
     } 
 }
 
-@media only screen and (max-width:360px max-height:568px) {
+@media only screen and (max-width:360px) {
 .table-tight > tfoot > tr > th,{        
     } 
 }
 
-@media only screen and (max-width:360px max-height:568px) {
+@media only screen and (max-width:360px ) {
 .table-tight > thead > tr > td,{        
     } 
 }
 
-@media only screen and (max-width:360px max-height:568px) {
+@media only screen and (max-width:360px ) {
 .table-tight > tbody > tr > td,{        
     } 
 }
 
-@media only screen and (max-width:360px max-height:568px) {
+@media only screen and (max-width:360px ) {
 .table-tight > tfoot > tr > td{        
     } 
 }
