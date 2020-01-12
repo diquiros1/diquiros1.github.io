@@ -1,8 +1,7 @@
 <?php
    
     $name = $_POST['name'];
-    $subject = $_POST['subject'];
-    $mailFrom = $_POST['email'];
+    $visitor_email = $_POST['email'];
     $message = $_POST['message'];
 
     $email_from = '2314diego@gmail.com';
@@ -15,11 +14,13 @@
 
      
     $to = "2314diego@gmail.com";
+
     $headers = "From: $mailFrom; /r/n";
-    $headers .= "Reply-To: $visitor_email /r/n";
-    $txt = "You have received an e-mail from ".$name.".\r\n".$message;
+
+    $headers .= "Reply-To: $visitor_email /r/n"
     
     mail($to,$email_subject,$email_body,$headers);
+
     header("Location: index.html");
     
 
