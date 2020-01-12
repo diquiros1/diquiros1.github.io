@@ -1,17 +1,15 @@
+Thanks for your message!
+
 <?php
-   
-
-if (isset($_POST['submit'])) {
-$name = $_POST['name'];
-$subject = $_POST['subject'];
-$mailFrom = $_POST['mail'];
-$message = $_POST['message'];
-
-$mailTo = "2314diego@gmail.com";
-$headers = "From: ".$mailFrom;
-$txt = "You have received an e-mail from ".$name.".\n\n".$message;
-
-mail($mailTo, $subject, $txt, $headers);
-header("Location: contact.php");
-}
-    
+	
+	$userName 		= $_POST['myName'];
+	$userEmail	 	= $_POST['myEmail'];
+	$userMessage 		= $_POST['myMessage'];
+	$to 			= "2314diego@gmail.com";
+	$subject 		= "Email from my website";
+	$body 			= "Information Submitted:";
+	$body .= "\r\n Name: " . $userName;
+	$body .= "\r\n Email: " . $userEmail;
+	$body .= "\r\n Message: " . $userMessage;
+	mail($to, $subject, $body);
+?>
