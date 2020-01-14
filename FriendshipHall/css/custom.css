@@ -2,8 +2,7 @@
 
 body {
     position: relative;
-    line-height: 1em;
-    margin-top: 13em;
+    margin-top: 12em;
     width: 100%;
     font-family: Didot, serif;
         }
@@ -56,13 +55,15 @@ body {
 }
 /* Carousel */
 .d-block{
+position: fixed;
+z-index: 1;
 width:100%; 
 text-indent: -1840px;
 -webkit-filter: grayscale(100%);filter: grayscale(100%);
 }
 
 .carousel-caption {
-    padding-bottom: 18%;
+    padding-bottom: 10%;
     padding-top: 10%;
     font color: black;
 }
@@ -71,17 +72,16 @@ text-indent: -1840px;
     font-size: 42px;
     font-weight: bold;
     padding-top: 2%;
-   color: white;
+    color: white;
 }
 
 /* Video Background */
 
 .wclb {
     width:100%;
-    padding-top: 1.8em;
-    padding-bottom: 1%;
+    padding-top: 0%;
+    padding-bottom: 0%;
 }
-
 /*arrow*/
 
 .btt {
@@ -175,23 +175,6 @@ text-indent: -1840px;
     font-weight: bold;
 }
 
-/* Wines List */
-
-#wines {
-    background:#B4B7B4;
-    padding:100px 20px;
-}
-
-.wlt {
-    padding-bottom:50px;
-}
-
-/* Jumbotron */
-
-#jumbo {
-    background:#B4B7B4;
-}
-
 /* Overlay */
 
 .ovl {
@@ -203,10 +186,6 @@ text-indent: -1840px;
     opacity: 1;
     background: rgb(0,0,0,0.6);
 }
-
-/* Locations */
-
-
 
 /* Testimonials */
 
@@ -289,10 +268,10 @@ text-indent: -1840px;
 /* Contact */
 
 div.transbox {
-  margin: 0px;
+  margin: 10px;
   background-color: #ffffff;
   border: .1px solid black;
-  opacity: 0.4;
+  opacity: 0.5;
   filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
@@ -302,13 +281,12 @@ div.transbox p {
   color: #000000;
 }
 
-
 /* Footer */
 
 #footer {
     background:#333;
     width: auto;
-    padding-top: 40px;
+    padding-top: 0px;
     padding: 15px;
     font-size: 15px;
 }
