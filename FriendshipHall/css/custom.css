@@ -2,8 +2,8 @@
 
 body {
     position: relative;
-    line-height: 16px;
-    margin-top: 200px;
+    line-height: 1em;
+    margin-top: 13em;
     width: 100%;
     font-family: Didot, serif;
         }
@@ -44,36 +44,26 @@ body {
 .active {
     border-bottom: 2px solid #fff;
 }
-
 .navbar-brand{
  position:    
 }
-
 .nav-link {  
 }
 
-.image {
- 
-    
+.image {   
 }
-
-.col-md-12 col-lg-4 {
-    
+.col-md-12 col-lg-4 {   
 }
-
 /* Carousel */
-
-
 .d-block{
 width:100%; 
-
-    text-indent: -1840px;
+text-indent: -1840px;
 -webkit-filter: grayscale(100%);filter: grayscale(100%);
 }
 
 .carousel-caption {
     padding-bottom: 18%;
-    padding-top: 0%;
+    padding-top: 10%;
     font color: black;
 }
 
@@ -81,15 +71,15 @@ width:100%;
     font-size: 42px;
     font-weight: bold;
     padding-top: 2%;
-    font color: black;
+   color: white;
 }
 
 /* Video Background */
 
 .wclb {
     width:100%;
-    padding-top:29px;
-    padding-bottom: 2.5%;
+    padding-top: 1.8em;
+    padding-bottom: 1%;
 }
 
 /*arrow*/
